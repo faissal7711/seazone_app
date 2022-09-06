@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
-import '../../../widgets/covid_19_button.dart';
+import '../../search_result_screen/widgets/covid_19_button.dart';
 
 class RoomHotelItem extends StatelessWidget {
 //  final String id;

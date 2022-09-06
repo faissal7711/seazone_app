@@ -5,10 +5,10 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../widgets/custom_icon_button.dart';
-import '../widgets/custom_list_tile.dart';
-import 'home_screen.dart';
-import 'search_result_screen.dart';
+import 'widgets/custom_icon_button.dart';
+import 'widgets/custom_list_tile.dart';
+import '../home_screen/home_screen.dart';
+import '../search_result_screen/search_result_screen.dart';
 
 // import 'package:flutter_application_7/main.dart';
 // import 'package:flutter_screenutil/flutter_screenutil.dart';

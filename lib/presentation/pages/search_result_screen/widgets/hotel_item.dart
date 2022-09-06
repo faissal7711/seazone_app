@@ -3,9 +3,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
-import '../screens/hotel_details_screen/hotel_details_screen.dart';
+import '../../hotel_details_screen/hotel_details_screen.dart';
 import 'covid_19_button.dart';
-import 'custom_icon_button.dart';
+import '../../hotels_search_screen/widgets/custom_icon_button.dart';
 
 class HotelItem extends StatelessWidget {
 //  final String id;

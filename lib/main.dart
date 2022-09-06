@@ -1,14 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:seazone/screens/chang_airport.dart';
-import 'package:seazone/screens/flight1_screen.dart';
-import 'package:seazone/screens/tapbar.dart';
-import 'package:seazone/screens/test.dart';
-
-import 'screens/home_screen.dart';
-import 'package:seazone/screens/hotel_details_screen/hotel_details_screen.dart';
-import 'screens/search_result_screen.dart';
-import 'screens/splash_screen/splash_screen.dart';
+import 'presentation/pages/splash_screen/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());

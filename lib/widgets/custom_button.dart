@@ -26,7 +26,7 @@ class CustomButton extends StatelessWidget {
         width: width,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(60.0),
-          border: Border.all(color: orangeColor),
+          border: Border.all(color: Colors.deepOrange),
         ),
         child: FloatingActionButton.extended(
           heroTag: heroTag,

@@ -1,11 +1,9 @@
 // ignore_for_file: unused_local_variable, prefer_const_literals_to_create_immutables, prefer_const_constructors, sized_box_for_whitespace
 
 import 'package:flutter/material.dart';
-import 'package:seazone/screens/tapbar.dart';
-
-import '../widgets/DashboardCards.dart';
-import '../widgets/offer_item.dart';
-import 'hotels_search_screen.dart';
+import 'widgets/DashboardCards.dart';
+import 'widgets/offer_item.dart';
+import '../hotels_search_screen/hotels_search_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   static const routeName = '/student_screen';
@@ -72,11 +70,6 @@ class HomeScreen extends StatelessWidget {
                       children: [
                         InkWell(
                           onTap: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => const MyStatelessWidget()),
-                            );
                           },
                           child: DashboardCard(
                             name: 'الطيران',

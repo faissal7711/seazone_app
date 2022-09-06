@@ -5,8 +5,8 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../widgets/custom_text_field.dart';
-import '../widgets/hotel_item.dart';
+import 'widgets/custom_text_field.dart';
+import 'widgets/hotel_item.dart';
 
 // import 'package:flutter_application_7/main.dart';
 // import 'package:flutter_screenutil/flutter_screenutil.dart';

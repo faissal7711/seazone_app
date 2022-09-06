@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-import '../screens/search_result_screen.dart';
+import '../../search_result_screen/search_result_screen.dart';
 
 class CustomIconButton extends StatelessWidget {
   final String name;

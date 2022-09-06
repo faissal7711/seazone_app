@@ -2,9 +2,6 @@
 
 import 'package:flutter/material.dart';
 
-// import '../conestants.dart';
-import '../services/theme.dart';
-
 class CustomListTile extends StatelessWidget {
   final String name;
   final String result;

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 // import '../conestants.dart';
-import '../services/theme.dart';
 
 class DashboardCard extends StatelessWidget {
   final String name;
@@ -21,7 +20,7 @@ class DashboardCard extends StatelessWidget {
       decoration: BoxDecoration(
         border: Border.all(color:Colors.white),
         borderRadius: BorderRadius.circular(20),
-        color: white,
+        color: Colors.white,
         boxShadow: [
           BoxShadow(
             color: Colors.black38,
