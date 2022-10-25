@@ -4,8 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 import '../../search_result_screen/widgets/covid_19_button.dart';
+import 'hotel_widget_panel_list.dart';
 
-class RoomHotelItem extends StatelessWidget {
+class RoomHotelItem extends StatefulWidget {
 //  final String id;
   final String imageURL;
   final IconData iconURL;
@@ -30,6 +31,11 @@ class RoomHotelItem extends StatelessWidget {
   });
 
   @override
+  State<RoomHotelItem> createState() => _RoomHotelItemState();
+}
+
+class _RoomHotelItemState extends State<RoomHotelItem> {
+  @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
@@ -49,6 +55,7 @@ class RoomHotelItem extends StatelessWidget {
           elevation: 4.0,
           margin: EdgeInsets.symmetric(vertical: 6.0, horizontal: 10.0),
           child: Column(
+            // mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Expanded(
                 flex: 5,
@@ -65,7 +72,7 @@ class RoomHotelItem extends StatelessWidget {
                               topRight: Radius.circular(10.0),
                             ),
                             child: Image.asset(
-                              imageURL,
+                              widget.imageURL,
                               height: 250.0,
                               width: double.infinity,
                               fit: BoxFit.cover,
@@ -113,7 +120,7 @@ class RoomHotelItem extends StatelessWidget {
                                     padding: const EdgeInsets.symmetric(
                                         vertical: 3.0),
                                     child: Text(
-                                      hotelName,
+                                      widget.hotelName,
                                       maxLines: 2,
 //                            overflow: TextOverflow.ellipsis,
                                       style: TextStyle(
@@ -172,11 +179,9 @@ class RoomHotelItem extends StatelessWidget {
                 ),
               ),
               Divider(color: Colors.black26),
-              Expanded(
-                  flex: 1,
-                  child: Container(
-                    color: Colors.white,
-                  ))
+              // Expanded(
+              //     // flex: 1,
+              //     child: HotelWidgetPanelList(isNew: true))
             ],
           ),
         ),

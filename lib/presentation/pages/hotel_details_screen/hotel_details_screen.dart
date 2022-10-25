@@ -1,6 +1,5 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 import 'dart:async';
-import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
@@ -32,7 +31,7 @@ class HotelDetailsScreenState extends State<HotelDetailsScreen> {
 
   @override
   void initState() {
-    _controller = TabContainerController(length: 2);
+    _controller = TabContainerController(length: 2,initialIndex: 1);
     super.initState();
   }
 

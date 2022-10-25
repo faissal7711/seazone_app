@@ -4,11 +4,11 @@ import 'package:flutter/material.dart';
 
 class DashboardCard extends StatelessWidget {
   final String name;
+  final String imgPath;
 
-  final String imgpath;
-
-  const DashboardCard({Key? key, required this.name, required this.imgpath})
+  const DashboardCard({Key? key, required this.name, required this.imgPath})
       : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     final double width = MediaQuery.of(context).size.width;
@@ -18,7 +18,7 @@ class DashboardCard extends StatelessWidget {
       height: 120,
       width: 120,
       decoration: BoxDecoration(
-        border: Border.all(color:Colors.white),
+        border: Border.all(color: Colors.white),
         borderRadius: BorderRadius.circular(20),
         color: Colors.white,
         boxShadow: [
@@ -32,7 +32,7 @@ class DashboardCard extends StatelessWidget {
       child: Column(
         children: [
           Image.asset(
-            imgpath,
+            imgPath,
             width: 65,
             height: 50,
           ),
@@ -49,7 +49,6 @@ class DashboardCard extends StatelessWidget {
           ),
         ],
       ),
-      
     );
   }
 }

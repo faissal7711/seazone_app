@@ -1,6 +1,6 @@
 part of 'presentation_helpers.dart';
 class ApplicationTextValue{
-  static const String APP_NAME = "تشخيص";
+  static const String APP_NAME = "Seazone";
 
   /// //////////////////////////////////////////
   /// ////////////////////////////////////////
